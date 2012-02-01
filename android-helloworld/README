@@ -1,0 +1,15 @@
+Requisiti
+	maven 3.*.* con m2eclipse-android-integration[1] in eclipse
+	android sdk + librerie android 3 (1.5) scaricate
+	eclipse con git e android, ovviamente 
+
+1: http://code.google.com/a/eclipselabs.org/p/m2eclipse-android-integration/wiki/GettingStarted
+
+
+Creato con maven:
+	mvn archetype:generate \
+		-DarchetypeArtifactId=android-quickstart \
+		-DarchetypeGroupId=de.akquinet.android.archetypes \
+		-DarchetypeVersion=1.0.7 \
+		-DgroupId=com.dec.exp.android.hello \
+		-DartifactId=android-helloworld
