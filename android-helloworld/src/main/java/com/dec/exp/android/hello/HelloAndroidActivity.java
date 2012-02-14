@@ -13,7 +13,7 @@ public class HelloAndroidActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		Log.i("helloworld", "onCreate");
 		setContentView(R.layout.main);
-		Log.i(new HelloWsHandler().call("pippo"), "onCreate");
+		Log.i(new HelloWsHandler("10.0.2.2").callExec("gedit"), "onCreate");
 	}
 
 }
